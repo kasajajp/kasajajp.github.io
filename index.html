@@ -4,18 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KASAJA.jp | かさじゃ オフィシャルサイト</title>
-    <style>
-        body { font-family: sans-serif; background: #f8fafc; color: #334155; text-align: center; padding: 50px; }
-        h1 { color: #1e293b; }
-        .btn { display: inline-block; padding: 10px 20px; background: #10b981; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; font-weight: bold; }
-    </style>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1519450328099864"
-crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1519450328099864" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>🎨 KASAJA.jp へようこそ</h1>
-    <p>ここは「KASAJA.jp」の公式ホームページ兼ポートフォリオです。</p>
-    
-    <a href="https://kasajajp.github.io/tobacco_healthcare_hp/" class="btn">🚬 タバコ代計算機アプリはこちら</a>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">KASAJA.jp</div>
+            <nav>
+                <a href="#">ホーム</a>
+                <a href="https://kasajajp.github.io/tobacco_healthcare_hp/">タバコ代計算機</a>
+                <a href="#">お問い合わせ</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        
+        <aside class="sidebar">
+            <h3>コンテンツ</h3>
+            <ul>
+                <li><a href="#" class="active">ホーム・案内</a></li>
+                <li><a href="https://kasajajp.github.io/tobacco_healthcare_hp/">🚬 タバコ代計算機</a></li>
+                <li><a href="#">🎨 ギャラリー（準備中）</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            
+            <section class="profile-section">
+                <h2>🎨 かさじゃ (KASAJA) へようこそ</h2>
+                <p class="intro-text">
+                    ここは「かさじゃ」の公式ホームページです。イラスト・制作・アートに関する活動のアーカイブや、便利なオリジナルWEBツールの開発を行っています。
+                </p>
+            </section>
+
+            <h2>Featured Works / 作品・プロジェクト</h2>
+            <p class="count">最新の活動ラインナップ</p>
+
+            <div class="card-grid">
+                <article class="card" onclick="location.href='https://kasajajp.github.io/tobacco_healthcare_hp/'">
+                    <div class="card-img-wrapper">
+                        <img src="https://via.placeholder.com/300x180/10b981/ffffff?text=Cigarette+Calculator" alt="タバコ代計算機">
+                    </div>
+                    <div class="card-content">
+                        <span class="date">UPDATE 2026.05.16</span>
+                        <h3 class="card-title">🚬 タバコ代、もったいなかった計算機</h3>
+                        <p class="card-text">吸った年数と本数から、これまで人生でどれだけのお金をタバコに費やしてきたかを一発で計算するWEB便利ツールです。</p>
+                        <span class="tag">WEBアプリ</span>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://via.placeholder.com/300x180/ddd/999?text=Artwork+Archive" alt="アート作品">
+                    </div>
+                    <div class="card-content">
+                        <span class="date">COMING SOON</span>
+                        <h3 class="card-title">油絵・イラスト作品ギャラリー</h3>
+                        <p class="card-text">現在、新しく制作している絵画やデザイン作品を公開するための展示スペースを準備中です。</p>
+                        <span class="tag">アート・絵画</span>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+    </div>
+
 </body>
 </html>
